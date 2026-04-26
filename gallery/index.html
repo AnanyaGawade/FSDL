@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="title">Photo Gallery</h2>
+
+<!-- FILTER BUTTONS -->
+<div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+</div>
+
+<!-- GALLERY -->
+<div class="gallery" id="gallery">
+
+    <div class="card" data-category="nature">
+        <img src="https://picsum.photos/300?1">
+        <div class="overlay">Nature</div>
+    </div>
+
+    <div class="card" data-category="nature">
+        <img src="https://picsum.photos/300?2">
+        <div class="overlay">Nature</div>
+    </div>
+
+    <div class="card" data-category="city">
+        <img src="https://picsum.photos/300?3">
+        <div class="overlay">City</div>
+    </div>
+
+    <div class="card" data-category="city">
+        <img src="https://picsum.photos/300?4">
+        <div class="overlay">City</div>
+    </div>
+
+    <div class="card" data-category="nature">
+        <img src="https://picsum.photos/300?5">
+        <div class="overlay">Nature</div>
+    </div>
+
+    <div class="card" data-category="city">
+        <img src="https://picsum.photos/300?6">
+        <div class="overlay">City</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
