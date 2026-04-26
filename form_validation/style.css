@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:linear-gradient(135deg,#e0f2fe,#ffffff);
+}
+
+/* NAV */
+nav{
+    background:#1e293b;
+    color:white;
+    padding:15px 40px;
+}
+
+/* LAYOUT */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.column{
+    flex-direction:column;
+    gap:20px;
+}
+
+.section-title{
+    text-align:center;
+}
+
+/* CARD */
+.card-main{
+    background:white;
+    padding:30px;
+    width:100%;
+    max-width:400px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INPUTS */
+input, select, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+textarea{
+    resize:none;
+}
+
+/* RADIO */
+.radio-group{
+    display:flex;
+    gap:20px;
+    margin-top:10px;
+}
+
+/* BUTTON */
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    background:#3b82f6;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2563eb;
+}
+
+/* ERROR */
+.error{
+    color:red;
+    font-size:12px;
+}

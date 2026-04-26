@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Student Registration</h2>
+</nav>
+
+<div class="container column">
+
+    <h2 class="section-title">Register Student</h2>
+
+    <form id="regForm" class="card-main">
+
+        <input type="text" id="name" placeholder="Full Name">
+        <span class="error" id="nameError"></span>
+
+        <input type="email" id="email" placeholder="Email">
+        <span class="error" id="emailError"></span>
+
+        <div class="radio-group">
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+        </div>
+        <span class="error" id="genderError"></span>
+
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select>
+        <span class="error" id="courseError"></span>
+
+        <textarea id="address" placeholder="Address"></textarea>
+        <span class="error" id="addressError"></span>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

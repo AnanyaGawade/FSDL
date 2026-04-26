@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js CDN -->
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Performance Dashboard</h2>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container column">
+
+    <h2 class="section-title">Student Performance Overview</h2>
+
+    <div class="dashboard">
+
+        <!-- BAR CHART -->
+        <div class="card">
+            <h3>Marks Distribution</h3>
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <!-- LINE CHART -->
+        <div class="card">
+            <h3>Progress Over Time</h3>
+            <canvas id="lineChart"></canvas>
+        </div>
+
+        <!-- PIE CHART -->
+        <div class="card">
+            <h3>Attendance Overview</h3>
+            <canvas id="pieChart"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

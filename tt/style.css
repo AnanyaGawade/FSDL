@@ -1,0 +1,62 @@
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #e0f2fe;
+    text-align: center;
+    padding: 30px;
+}
+
+/* TITLE */
+.title {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+/* TABLE CONTAINER */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* HEADERS */
+th {
+    background: #1e293b;
+    color: white;
+    padding: 12px;
+}
+
+/* CELLS */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* ROW HOVER */
+td:hover {
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* LAB CELLS */
+.lab {
+    background: #38bdf8;
+    color: white;
+    font-weight: bold;
+}
+
+/* BREAK ROW */
+.break {
+    background: #facc15;
+    font-weight: bold;
+}
