@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="title">Skills Dashboard</h2>
+
+<div class="main">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+
+        <div class="input-box">
+            <input type="text" id="skillName" placeholder="Skill Name">
+            <input type="number" id="skillPercent" placeholder="Percentage">
+            <button onclick="addSkill()">Add</button>
+        </div>
+
+        <div id="skillsContainer" class="grid"></div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+        <canvas id="chart"></canvas>
+    </div>
+
+</div>
+
+<!-- CHART JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

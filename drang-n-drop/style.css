@@ -1,0 +1,74 @@
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:linear-gradient(135deg,#e0f2fe,#ffffff);
+    text-align:center;
+    padding:40px;
+}
+
+.title{
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+    max-width:300px;
+    margin:auto;
+    padding:0;
+}
+
+li{
+    padding:12px;
+    margin:8px 0;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    cursor:grab;
+}
+
+li.dragging{
+    opacity:0.5;
+}
+
+/* INPUT SECTION */
+.input-box{
+    margin-bottom:20px;
+}
+
+.input-box input{
+    padding:10px;
+    width:200px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.input-box button{
+    padding:10px;
+    margin-left:5px;
+    background:#3b82f6;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* TASK ITEM */
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+    margin:8px 0;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* DELETE BUTTON */
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    border-radius:4px;
+    padding:4px 8px;
+    cursor:pointer;
+}

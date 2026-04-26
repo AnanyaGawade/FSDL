@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Notes Application</h2>
+</nav>
+
+<div class="container column">
+
+    <h2 class="section-title">My Notes</h2>
+
+    <div class="card-main">
+
+        <input type="text" id="titleInput" placeholder="Note Title">
+
+        <input type="text" id="categoryInput" placeholder="Category (e.g., Study, Work)">
+
+        <select id="priorityInput">
+            <option value="">Select Priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+
+        <textarea id="noteInput" placeholder="Write your note..."></textarea>
+
+        <button onclick="addNote()">Add Note</button>
+
+    </div>
+
+    <div id="notesContainer" class="notes-grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

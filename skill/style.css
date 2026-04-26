@@ -1,0 +1,84 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:linear-gradient(135deg,#e0f2fe,#ffffff);
+    padding:20px;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* MAIN LAYOUT */
+.main{
+    display:flex;
+    gap:20px;
+}
+
+/* LEFT */
+.left{
+    flex:1;
+}
+
+/* RIGHT */
+.right{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+.input-box{
+    margin-bottom:20px;
+}
+
+.input-box input{
+    padding:8px;
+    margin:5px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.input-box button{
+    padding:8px 12px;
+    background:#3b82f6;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+/* CARD */
+.skill-card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* BAR */
+.bar{
+    background:#e5e7eb;
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:8px;
+}
+
+.fill{
+    height:18px;
+    background:#3b82f6;
+    color:white;
+    font-size:12px;
+    text-align:right;
+    padding-right:5px;
+}
