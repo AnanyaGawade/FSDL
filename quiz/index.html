@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Quiz Application</h2>
+</nav>
+
+<div class="container column">
+
+    <h2 class="section-title">Test Your Knowledge</h2>
+
+    <div class="card-main">
+
+        <h3 id="question">Question here</h3>
+
+        <div id="options" class="options"></div>
+
+        <button onclick="nextQuestion()">Next</button>
+        <button id="restartBtn" onclick="restartQuiz()" style="display:none;">Restart Quiz</button>
+        <p id="scoreBox" class="score"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

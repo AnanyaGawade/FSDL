@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>String Utility Tool</h2>
+</nav>
+
+<div class="container column">
+
+    <h2 class="section-title">Enter Your String</h2>
+
+    <div class="card-main">
+
+        <input type="text" id="inputText" placeholder="Type something...">
+
+        <div class="btn-group">
+            <button onclick="reverseText()">Reverse</button>
+            <button onclick="toUpper()">Uppercase</button>
+            <button onclick="toLower()">Lowercase</button>
+            <button onclick="getLength()">Length</button>
+            <button onclick="clearText()" class="clear">Clear</button>
+        </div>
+
+        <div class="result-box">
+            <p id="result">Result will appear here</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
